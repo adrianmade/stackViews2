@@ -25,74 +25,95 @@
                                 <rect key="frame" x="20" y="60" width="728" height="944"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SHB-6f-efR">
-                                        <rect key="frame" x="0.0" y="0.0" width="728" height="472"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="728" height="693.5"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chucks" translatesAutoresizingMaskIntoConstraints="NO" id="5vc-In-7Il">
-                                                <rect key="frame" x="0.0" y="0.0" width="728" height="472"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="728" height="693.5"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hAr-QA-cyf">
-                                        <rect key="frame" x="0.0" y="487" width="728" height="100"/>
+                                        <rect key="frame" x="0.0" y="708.5" width="728" height="70"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="0hn-yv-iYM">
-                                                <rect key="frame" x="0.0" y="0.0" width="137.5" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="137.5" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="TOb-wF-fyH"/>
+                                                </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" image="shoes2" translatesAutoresizingMaskIntoConstraints="NO" id="bJE-bO-73a">
-                                                <rect key="frame" x="147.5" y="0.0" width="137.5" height="100"/>
+                                                <rect key="frame" x="147.5" y="0.0" width="137.5" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="JpH-dp-Yi2"/>
+                                                </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" image="shoes3" translatesAutoresizingMaskIntoConstraints="NO" id="I6R-4g-358">
-                                                <rect key="frame" x="295" y="0.0" width="138" height="100"/>
+                                                <rect key="frame" x="295" y="0.0" width="138" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="D0E-xh-Ctp"/>
+                                                </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" image="shoes4" translatesAutoresizingMaskIntoConstraints="NO" id="jmf-kK-v2N">
-                                                <rect key="frame" x="443" y="0.0" width="137.5" height="100"/>
+                                                <rect key="frame" x="443" y="0.0" width="137.5" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="M20-mC-2X0"/>
+                                                </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="260" image="shoes5" translatesAutoresizingMaskIntoConstraints="NO" id="UpT-Tv-lPc">
-                                                <rect key="frame" x="590.5" y="0.0" width="137.5" height="100"/>
+                                                <rect key="frame" x="590.5" y="0.0" width="137.5" height="70"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="70" id="FbR-17-fRI"/>
+                                                </constraints>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pq3-Yr-B9b">
-                                        <rect key="frame" x="0.0" y="602" width="728" height="36"/>
+                                        <rect key="frame" x="0.0" y="793.5" width="728" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Shoes!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJx-rf-VB4">
-                                                <rect key="frame" x="0.0" y="0.0" width="728" height="36"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="728" height="60"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
                                                 <color key="textColor" red="0.060548460700000001" green="0.29598481679999999" blue="0.58982351040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="QYl-Bd-Lfe"/>
+                                        </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7qY-I6-bT5">
-                                        <rect key="frame" x="0.0" y="653" width="728" height="20.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="7qY-I6-bT5">
+                                        <rect key="frame" x="0.0" y="868.5" width="728" height="20.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Ref. 102234042 USA Special Edition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfu-oq-pW2">
-                                                <rect key="frame" x="0.0" y="0.0" width="676" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Ref. 102234042 USA Special Edition" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfu-oq-pW2">
+                                                <rect key="frame" x="0.0" y="0.0" width="615" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$78.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWx-nr-rs6">
-                                                <rect key="frame" x="676" y="0.0" width="52" height="20.5"/>
+                                                <rect key="frame" x="615" y="0.0" width="113" height="20.5"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="0.11233957159999999" green="0.67181551399999995" blue="0.40816192979999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="AHX-ew-97t">
-                                        <rect key="frame" x="0.0" y="688.5" width="728" height="255.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="240" verticalCompressionResistancePriority="760" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="AHX-ew-97t">
+                                        <rect key="frame" x="0.0" y="904" width="728" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ero-5x-I7l">
-                                                <rect key="frame" x="0.0" y="0.0" width="351.5" height="255.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="351.5" height="40"/>
                                                 <color key="backgroundColor" red="0.060548460700000001" green="0.29598481679999999" blue="0.58982351040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="dan-ET-I3i"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                                 <state key="normal" title="Like">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMO-47-d6F">
-                                                <rect key="frame" x="376.5" y="0.0" width="351.5" height="255.5"/>
+                                                <rect key="frame" x="376.5" y="0.0" width="351.5" height="40"/>
                                                 <color key="backgroundColor" red="0.11233957159999999" green="0.67181551399999995" blue="0.40816192979999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
                                                 <state key="normal" title="Buy">
@@ -100,6 +121,7 @@
                                                 </state>
                                             </button>
                                         </subviews>
+                                        <variation key="widthClass=compact" axis="vertical"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
